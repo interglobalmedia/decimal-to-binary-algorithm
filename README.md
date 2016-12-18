@@ -80,13 +80,13 @@ print() is a helper method. it outputs the content of the stack to the console.
 }
 ```
 
-The first of the three most famous algorithm examples of using a stack is the DECIMAL TO BINARY ALGORITHM.
+The first of the three most famous algorithm examples of using a stack is the **DECIMAL TO BINARY ALGORITHM**.
 
-Decimal to Binary Conversion Algorithm, also known as DivideBy2 algorithm:
+**Decimal to Binary Conversion Algorithm**, also known as **DivideBy2 Algorithm**:
 
 All of us are probably already familiar with the decimal base regarding numbers. That refers to the number system 0 - 9, which consists of 10 numbers. However, the binary representation is very important in Computer Science. Everything in a computer is represented by binary digits (0 and 1). Without the ability to convert back and forth between decimal and binary numbers, it would be difficult to communicate with a computer.
 
-To convert a DECIMAL NUMBER to a BINARY REPRESENTATION, we can divide the number by 2 (binary is a base 2 number system) until the division result is 0. Conversion is one the first thing you learn in a Computer Science class in college, for example.
+To convert a **DECIMAL NUMBER to a BINARY REPRESENTATION**, we can divide the number by 2 (binary is a base 2 number system) until the division result is 0. Conversion is one the first thing you learn in a Computer Science class in college, for example.
 
 ```javascript
 function divideBy2(decNumber) {
