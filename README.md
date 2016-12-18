@@ -109,7 +109,8 @@ console.log(divideBy2(10));
 console.log(divideBy2(1000));
 ```
 
-divideBy2(233):
+```javascript
+divideBy2(233)
 
 233/2 === 116 rem === 1
 116/2 === 58 rem === 0
@@ -121,10 +122,12 @@ divideBy2(233):
 1/2 === 0 rem === 1
 
 10010111 -> 11101001
+```
 
 Why the reversal of binaries above? The remainders are first pushed into the end of the RemStack array. At the finish, the first remainder in would be the first number in the remStack Array at index 0. However, when the remainder-binary is popped out of the remStack array and concatenated to the binaryString, it ends up at the end again (right to left), resulting in the reverse order of the rems.
 
-divideBy2(10):
+```javascript
+divideBy2(10)
 
 10/2 === 5 rem === 0
 5/2 === 2 rem === 1
@@ -147,3 +150,4 @@ divideBy2(1000):
 1/2 === 0 rem === 1
 
 0001011111 -> 1111101000
+```
