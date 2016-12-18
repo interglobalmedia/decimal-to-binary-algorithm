@@ -1,4 +1,4 @@
-#Solving problems using STACKS
+#Solving Problems Using Stacks
 
 
 STACK: an ordered collection of items that follows the LIFO (last in first out) principle. The addition or removal of items or the removal of existing items takes place at the same end.
