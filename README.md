@@ -38,7 +38,7 @@ removes the top item from the stack. It also returns the removed element. As the
 
 returns an element from the top of the stack. the stack is not modified. it does not remove the element. it only returns the element for information purposes. we use this method if we would like to know what was the last item added to the stack.
 
-```javascript d
+```javascript
     this.peek = function() {
 
         ** can obtain the last item from an array using length - 1 **
